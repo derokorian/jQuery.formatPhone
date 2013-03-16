@@ -11,6 +11,15 @@ $('selector').formatPhone({
 });
 
 
-Currently Supported Regions
-============
-US = United States
+Options
+=============
+<ul>
+<li><a href="#Regions">Region</a> - the locality to format the input for<br></li>
+</ul>
+
+<br><br>
+<a name="Regions"/>
+Currently Supported Regions:<br>
+<ul>
+<li>US - United States (default)</li>
+</ul>
