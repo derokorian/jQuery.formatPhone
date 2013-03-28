@@ -38,7 +38,7 @@
             }
         },
         fUS: function(el, options) {
-            return el.on("blur.Format", function () {
+            return $(el).on("blur.Format", function () {
                 var val = $(el).val().replace(/[^a-zA-Z0-9]+/g,'');
                 var prefix = "";
                 if (val.length > 0) {
